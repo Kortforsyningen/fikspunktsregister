@@ -327,6 +327,17 @@ Efter kaldet er færdigkørt, vil der være dannet tre nye filer;
 - en *projektnavn*-observationer.geojson samt
 - en *projektnavn*-punkter.geojson
 
+.. note:: Kontrol af journalsidefejl i *projektnavn*-resultat.xlsx
+Da journalnumrene typisk er fortløbende vil evt. fejl dukke op enten i top eller bund af kolonnen(journal).
+1.kontrol af at der ingen dubletter er, gøres ved at markere kolonne A (Journal) i fanen Observationer.
+Klik på Hjem > Betinget formatering > Fremhæv Celleregler > Dupliker Værdier. 
+2.I feltet ud for (værdier med), skal du vælge den formatering, du vil anvende til dubletværdier, og klik derefter på OK.
+Sat som standard til ”Lys rød fyldfarve med mørkerød tekst”. Nem farve at se så forsæt med det.
+3.Hvis der er dubletter, så skal fejlen rettes i råfilen, og så køre de step man har kørt en gang til, sådan at fejlen er rettet alle steder.
+4.Hvis ingen markering så er der ingen dubletter.
+
+Her indsættes et .PNG
+
 De to .geojson-filer er til indlæsning i QGIS til visualisering af nettet. Se
 :ref:`her <visualiseringQGIS>` for mere.
 
